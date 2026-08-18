@@ -29,7 +29,8 @@ import { useNavigate } from "react-router-dom";
 
 import "./DashboardPage.css";
 
-const API_BASE_URL = "http://localhost:5000";
+// const API_BASE_URL = "http://localhost:5000";
+const API_BASE_URL = "https://privyguard-backend-production.up.railway.app";
 
 function DashboardPage() {
   const navigate = useNavigate();

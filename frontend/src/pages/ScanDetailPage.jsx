@@ -13,7 +13,8 @@ import {
   Database,
 } from "lucide-react";
 
-const API_URL = "http://localhost:5000";
+// const API_URL = "http://localhost:5000";
+const API_URL = "https://privyguard-backend-production.up.railway.app";
 
 function getRisk(level) {
   const value = String(level || "").toUpperCase();
